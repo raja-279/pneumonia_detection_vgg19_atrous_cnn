@@ -1,0 +1,47 @@
+# ---- Dataset folders (images are NOT stored in this repository) ----
+NORMAL/
+pneumonia/
+train/
+val/
+test/
+
+# Trained model (published through GitHub Releases)
+best_vgg19_atrous.h5
+
+# Anything placed in demo_images/ stays local; only the placeholder is tracked
+demo_images/*
+!demo_images/.gitkeep
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+venv/
+.venv/
+env/
+ENV/
+
+# ---- Editors / IDEs ----
+.vscode/
+.idea/
+*.swp
+
+# ---- OS-generated files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Temporary files and logs ----
+*.tmp
+*.log
+*.bak
+
+# NOTE: the trained model (best_vgg19_atrous.h5), pneumonia_results.csv,
+# the Python scripts, README.md, requirements.txt and environment.txt
+# are intentionally NOT ignored.

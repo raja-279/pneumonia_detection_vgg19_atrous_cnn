@@ -1,0 +1,10 @@
+# Versions marked "verified" come from environment.txt (Python 3.10).
+# The remaining packages have no recorded version, so they are left unpinned.
+tensorflow==2.10.0   # verified
+keras==2.10.0        # verified
+numpy==1.23.5        # verified
+pandas
+scikit-learn
+# Needed by Keras for loading images (load_img) and for data augmentation:
+Pillow
+scipy

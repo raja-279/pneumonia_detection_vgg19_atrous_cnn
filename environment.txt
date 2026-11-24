@@ -1,0 +1,6 @@
+Python 3.10
+TensorFlow 2.10.0
+NumPy 1.23.5
+Keras 2.10.0
+OS: Windows
+CPU: Intel i5-11400F
